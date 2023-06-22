@@ -1,23 +1,41 @@
 @media only screen and (max-width: 1200px) {
-    body {
-      /* background-color: rgb(19, 174, 226) !important; */
-    }
-
-    .useLiquify-card {
-        width: 40% !important;
-        position: relative;
-        /* padding-top: 2rem !important; */
-      }
+  .useLiquify-card {
+    width: 40% !important;
+    position: relative;
+    /* padding-top: 2rem !important; */
   }
+}
 
-  @media only screen and (max-width: 992px) {
-    body {
-      /* background-color: rgb(19, 174, 226) !important; */
-    }
+@media only screen and (max-width: 992px) {
 
-    .useLiquify-card {
-        width: 100% !important;
-        position: relative;
-        /* padding-top: 2rem !important; */
-      }
+  .main {
+
+    margin-left: 6.25rem;
   }
+  #main_nav {
+    width: 6.25rem !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .top_nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* left: 6.25rem; */
+  }
+  .text-nav {
+    display: none;
+  }
+  #asideToggle {
+    display: none;
+  }
+  .useLiquify-card {
+    width: 100% !important;
+    position: relative;
+    /* padding-top: 2rem !important; */
+  }
+  .cards-three-wrapper .card-three {
+    width: 100% !important;
+  }
+}
