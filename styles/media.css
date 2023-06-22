@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1200px) {
+    body {
+      /* background-color: rgb(19, 174, 226) !important; */
+    }
+
+    .useLiquify-card {
+        width: 40% !important;
+        position: relative;
+        /* padding-top: 2rem !important; */
+      }
+  }
+
+  @media only screen and (max-width: 992px) {
+    body {
+      /* background-color: rgb(19, 174, 226) !important; */
+    }
+
+    .useLiquify-card {
+        width: 100% !important;
+        position: relative;
+        /* padding-top: 2rem !important; */
+      }
+  }
