@@ -38,4 +38,8 @@
   .cards-three-wrapper .card-three {
     width: 100% !important;
   }
+  .cards-section-Two .cards-two-wrapper .card-two {
+    width: 100%;
+    
+  }
 }
