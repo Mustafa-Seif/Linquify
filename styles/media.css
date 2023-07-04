@@ -42,4 +42,7 @@
     width: 100%;
     
   }
+  .nav_item{
+    justify-content: center;
+  }
 }
