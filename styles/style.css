@@ -126,6 +126,9 @@ h6{
   cursor: pointer;
   transition: 300ms ease-in-out all;
 }
+.lang-drop{
+  min-width: 1rem !important;
+}
 .nav_item_wrapper {
   padding: 0.3rem 0;
   color: var(--light-color);
