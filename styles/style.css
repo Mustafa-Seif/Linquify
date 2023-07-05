@@ -81,7 +81,7 @@ h6{
   background-color: #fafafa;
   padding:  1.5rem .75rem ;
   padding-bottom: .5rem;
-  height: 2000px;
+  height: 2500px;
 
 }
 /* START USE LINQUIFY SECTION  */
@@ -231,10 +231,6 @@ hr {
 .cards-section-Two {
   margin-bottom: 2rem;
 }
-
-.cards-section-Two .cards-two-wrapper {
-}
-
 .cards-section-Two .cards-two-wrapper .card-two {
   width: 49.2%;
   margin-bottom: 1rem;

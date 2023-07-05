@@ -45,4 +45,7 @@
   .nav_item{
     justify-content: center;
   }
+  .card-two-content{
+    flex-wrap: wrap-reverse;
+  }
 }
