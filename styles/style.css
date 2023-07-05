@@ -120,6 +120,7 @@ h6{
 }
 .logo_wrapper{
   cursor: pointer;
+  transition: 300ms ease-in-out all;
 }
 .nav_item_wrapper {
   padding: 0.3rem 0;
@@ -149,7 +150,9 @@ h6{
   border: 0 !important;
   box-shadow: none !important;
 }
-
+.logo_wrapper_center{
+  justify-content: center !important;
+}
 .text-nav {
   transition: 300ms ease-in-out all;
 }
