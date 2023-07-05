@@ -53,20 +53,21 @@ h6{
   margin: 0 !important;
 }
 
-/* .top_nav{
-  background-color: red;
-  padding: 0 2rem;
-} */
+.top_nav{
+  /* background-color: red;
+  padding: 0 2rem; */
+  position: sticky !important;
+  top: 0;
+  z-index: 999;
+  background-color: var(--light-color);
+}
 .nav-item img {
   cursor: pointer;
 }
 /* END HEADER  */
 
 /* START ASIDE  */
-.main_aside {
-  width: 300px !important;
-  
-}
+
 /* END ASIDE  */
 
 .card {
@@ -80,6 +81,7 @@ h6{
   background-color: #fafafa;
   padding:  1.5rem .75rem ;
   padding-bottom: .5rem;
+  height: 2000px;
 
 }
 /* START USE LINQUIFY SECTION  */
@@ -104,7 +106,6 @@ h6{
 }
 /* END USE LINQUIFY SECTION  */
 /* START ASIDE SECTION  */
-
 .main_aside {
   transition: 800ms ease-in-out all;
   width: 18rem !important;
@@ -113,6 +114,9 @@ h6{
   background-color: var(--light-color);
   /* border: solid 1px red; */
   padding: 0.4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 .aside_nav {
   background-color: #0066ff;
